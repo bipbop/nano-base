@@ -1,5 +1,5 @@
 {
-  "name": "micro-base",
+  "name": "nano-base",
   "version": "1.0.0",
   "description": "Simple and nano base for your project.",
   "main": "lib/index.js",
