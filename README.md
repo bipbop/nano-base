@@ -1,5 +1,5 @@
-# micro-base@1.0.0
- [![npm version](https://badge.fury.io/js/micro-base.svg)](https://npmjs.org/package/micro-base)  [![build status](https://travis-ci.org/bipbop/micro-base.svg)](https://travis-ci.org/bipbop/micro-base)  [![dependency status](https://david-dm.org/bipbop/micro-base.svg?theme=shields.io)](https://david-dm.org/bipbop/micro-base)  [![devDependency status](https://david-dm.org/bipbop/micro-base/dev-status.svg)](https://david-dm.org/bipbop/micro-base#info=devDependencies)
+# nano-base@1.0.0
+ [![npm version](https://badge.fury.io/js/nano-base.svg)](https://npmjs.org/package/nano-base)  [![build status](https://travis-ci.org/bipbop/nano-base.svg)](https://travis-ci.org/bipbop/nano-base)  [![dependency status](https://david-dm.org/bipbop/nano-base.svg?theme=shields.io)](https://david-dm.org/bipbop/nano-base)  [![devDependency status](https://david-dm.org/bipbop/nano-base/dev-status.svg)](https://david-dm.org/bipbop/nano-base#info=devDependencies)
 
 Simple and nano base for your project.
 
@@ -7,7 +7,14 @@ Simple and nano base for your project.
 Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
 
 ```sh
-npm install micro-base --save
+npm install nano-base --save
+```
+
+```js
+const Base = require('nano-base');
+const base = Base({ customConfig: 'myCustomConfig' });
+base.define('applicationDefinition', 'thisIsAFact');
+Object.assign(base, { people: 'LoveEachOther' });
 ```
 
 This package is provided in these module formats:
@@ -27,4 +34,4 @@ None
 - [mocha](https://github.com/mochajs/mocha): simple, flexible, fun test framework
 
 ## License
-[MIT]()
+[MIT](https://opensource.org/licenses/MIT)
