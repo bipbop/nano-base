@@ -1,6 +1,6 @@
 {
   "name": "nano-base",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple and nano base for your project.",
   "main": "lib/index.js",
   "repository": "git@github.com:bipbop/micro-base.git",
