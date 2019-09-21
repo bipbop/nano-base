@@ -1,4 +1,4 @@
-# nano-base@1.0.0
+# nano-base@1.0.2
  [![npm version](https://badge.fury.io/js/nano-base.svg)](https://npmjs.org/package/nano-base)  [![build status](https://travis-ci.org/bipbop/nano-base.svg)](https://travis-ci.org/bipbop/nano-base)  [![dependency status](https://david-dm.org/bipbop/nano-base.svg?theme=shields.io)](https://david-dm.org/bipbop/nano-base)  [![devDependency status](https://david-dm.org/bipbop/nano-base/dev-status.svg)](https://david-dm.org/bipbop/nano-base#info=devDependencies)
 
 Simple and nano base for your project.
